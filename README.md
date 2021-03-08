@@ -12,9 +12,13 @@ Given a network, which is represented by a set of nodes, the aim was to find the
   
 2)We examine the nodes that has the most major impact to the network,according to this formula:
 CI(i,r)=(Ki−1)∑j∈ϑBall(i,r)(Kj−1)
-where,i: is the node that we are interested to calculate and Ki is the number of connections of node i.
-      Ball(i,r):the set of nodes where shortest path from has length less or equal of constant r.So these are the nodes j that incorporate in a circle(i,r),that means a circle with centre the node i and radius equals to r.
-        ϑBall(i,r) : set of nodes that shortest path from i equals to r.Explicitly, these nodes are on the circumference of the circle (i,r).In 3 dimensional space are the nodes thatare on the surface of a sphere (i,r)
+where,
+i: is the node that we are interested to calculate and Ki is the number of connections of node i.
+
+Ball(i,r):the set of nodes where shortest path from has length less or equal of constant r.So these are the nodes j that incorporate in a circle(i,r),that means a circle with centre the node i and radius equals to r.
+
+ϑBall(i,r) : set of nodes that shortest path from i equals to r.Explicitly, these nodes are on the circumference of the circle (i,r).In 3 dimensional space are the nodes thatare on the surface of a sphere (i,r)
+
 Calculating total inluence of every node,we subtract this with the highest score adn adjust the influence of nodes that exist in Ball(i,r),according to the norm
 We repeat the same process for as nodes we need.
 
