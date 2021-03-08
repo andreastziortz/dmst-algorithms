@@ -24,4 +24,4 @@ We repeat the same process for as nodes we need.
 
 
 3 assignment
-Among the rules that were implmented during the pandemic was social distancing rules.That raises the question , if we have a certain space , how many people are able to allocate appropriately and in which structure without violating distance's rules.If we represent every person with a circle,the goal is to induce the highest number of circles with a certain radius inside the space that is drawn by a geometrical shape.So,given a space and a minimum distance required ,we cn find how many people could fit in.
+Among the rules that were implmented during the pandemic was social distancing rules.That raises the question , if we have a certain space , how many people are able to allocate appropriately and in which structure without violating distance's rules.If we represent every person with a circle,the goal is to induce the highest number of circles with a certain radius inside the space that is drawn by a geometrical shape.So,given a space and a minimum distance required ,we can find how many people could fit in.
